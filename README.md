@@ -18,7 +18,9 @@ It will use OpenMP to speed up everything, in case you have multicore cpu.
   
 If you are on Ubuntu (or debian) you can install all the dependencies with:  
 ```
-$ apt-get install cmake build-essential libopenmpi-dev libglut32-dev libxi-dev libxmu-dev
+$ sudo apt-get update
+$ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+$ apt-get install cmake build-essential libopenmpi-dev libxi-dev libxmu-dev
 ```
 
 ### To build ScriptBots on Linux:
